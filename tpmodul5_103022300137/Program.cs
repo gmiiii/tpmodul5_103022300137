@@ -1,13 +1,14 @@
 ﻿using System;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
-namespace tpmodul5_103022300137;
-public class Program
+namespace tpmodul5_103022300137
 {
-    public static void Main(string[] args)
+    public class Program
     {
-        DataGeneric<long> dataInt = new DataGeneric<long>(103022300137);
-        dataInt.tampilData();
+        public static void Main(string[] args)
+        {
+            DataGeneric<long> dataInt = new DataGeneric<long>(103022300137);
+            dataInt.tampilData();
+        }
     }
 }
