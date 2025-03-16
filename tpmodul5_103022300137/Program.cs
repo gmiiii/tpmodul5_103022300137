@@ -1,27 +1,16 @@
 ﻿using System;
-
-
-namespace tpmodul5_103022300137
+public static class Program
 {
-    public class Program
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            DataGeneric<long> dataInt = new DataGeneric<long>(103022300137);
-            dataInt.tampilData();
-        }
+        haloGeneric halo = new haloGeneric();
+        halo.sapaUser("Gumilar Hari Subagja");
     }
-
-    class DataGeneric<T>
+}
+public class haloGeneric
+{
+    public void sapaUser<T>(T nama)
     {
-        public T data { get; set; }
-        public DataGeneric(T data)
-        {
-            this.data = data;
-        }
-        public void tampilData()
-        {
-            Console.WriteLine("Data: " + data);
-        }
+        Console.WriteLine("Halo " + nama);
     }
 }
