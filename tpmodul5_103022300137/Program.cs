@@ -1,9 +1,11 @@
 ﻿using System;
-
-public class Program
+namespace tpmodul5_10302230137
 {
-    public static void Main(string[] args)
+    public class Program
     {
+        public static void Main(string[] args)
+        {
 
+        }
     }
 }
