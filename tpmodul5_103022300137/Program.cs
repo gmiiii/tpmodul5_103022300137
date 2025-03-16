@@ -4,7 +4,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
+        HaloGeneric halo = new HaloGeneric();
+        halo.sapaUser("Gumilar Hari Subagja");
     }
 }
 
