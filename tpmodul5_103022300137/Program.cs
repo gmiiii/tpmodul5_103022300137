@@ -31,4 +31,3 @@ public class haloGeneric
         Console.WriteLine("Halo " + nama);
     }
 }
-//
