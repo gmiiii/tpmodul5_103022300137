@@ -22,4 +22,3 @@ class DataGeneric<T>
         Console.WriteLine("Data: " + data);
     }
 }
-
